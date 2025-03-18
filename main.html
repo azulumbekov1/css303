@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSF Festival</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="download.jpeg" alt="GDSF Festival Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to GDSF Festival</h1>
+            <p>Experience the best events and attractions!</p>
+            <a href="#tickets" class="cta-button">Buy Tickets</a>
+        </div>
+    </section>
+
+    <section id="events" class="content-section">
+        <h2>Upcoming Events</h2>
+        <div class="events-grid">
+            <div class="event-card">
+                <h3>Live Music</h3>
+                <p>Enjoy performances from top artists.</p>
+            </div>
+            <div class="event-card">
+                <h3>Steam Exhibitions</h3>
+                <p>Explore historic steam engines in action.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tickets" class="content-section">
+        <h2>Get Your Tickets</h2>
+        <button class="ticket-btn">Purchase Now</button>
+    </section>
+
+    <section id="attractions" class="content-section">
+        <h2>Festival Attractions</h2>
+        <p>Explore the best attractions at GDSF.</p>
+    </section>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="download.jpeg" alt="GDSF Festival Logo">
+        </div>
+        <p>&copy; 2025 GDSF Festival. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- Stylesheet -->
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, #8B0000 30%, #FFD700 100%);
+        color: #fff;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    /* Navigation Bar */
+    nav {
+        background-color: #8B0000;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #FFD700;
+    }
+
+    /* Hero Section */
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        background: url('festival-banner.jpg') no-repeat center center/cover;
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .cta-button {
+        background-color: #FFD700;
+        color: black;
+        padding: 12px 25px;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 25px;
+        transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background-color: #FFB300;
+    }
+
+    /* Content Sections */
+    .content-section {
+        padding: 60px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    /* Events Grid */
+    .events-grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .event-card {
+        background: rgba(255, 215, 0, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        width: 45%;
+        color: black;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #8B0000;
+        padding: 25px 0;
+        font-size: 16px;
+    }
+
+    .footer-logo img {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+</style>
